@@ -1,0 +1,63 @@
+{
+  "name": "@ditus/yup-is-decimal",
+  "version": "1.0.0",
+  "description": "A Yup rule for checking whether a value is a valid decimal number.",
+  "private": false,
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest --coverage",
+    "changelog": "conventional-changelog -o CHANGELOG.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ditus-software/yup-is-decimal.git"
+  },
+  "author": "DITUS INC. <ditus@rocketmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ditus-software/yup-is-decimal/issues"
+  },
+  "homepage": "https://github.com/ditus-software/yup-is-decimal#readme",
+  "peerDependencies": {
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.0",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/runtime": "^7.17.2",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "@rollup/plugin-replace": "^3.0.1",
+    "babel-loader": "^8.2.3",
+    "coveralls": "^3.1.1",
+    "eslint": "^7.14.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsdoc": "^30.7.8",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "jest": "^27.5.1",
+    "rollup": "^2.67.0",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-serve": "^1.1.0",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "files": [
+    "dist"
+  ],
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
